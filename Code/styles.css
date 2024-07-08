@@ -74,16 +74,16 @@ html{
 }
 
 .card_item .image1{
-    background-image: url("/image/product1.png") ;
+    background-image: url("/Code/image/product1.png") ;
 }
 .card_item .image2{
-    background-image: url("/image/product4.png") ;
+    background-image: url("/Code/image/product4.png") ;
 }
 .card_item .image3{
-    background-image: url("/image/product5.png") ;
+    background-image: url("/Code/image/product5.png") ;
 }
 .card_item .image4{
-    background-image: url("/image/product1.png") ;
+    background-image: url("/Code/image/product1.png") ;
 }
 
 .list_card .card_item .card_item_img{
@@ -223,7 +223,7 @@ html{
     border-radius: 5px;
     border: 0px none;
     width: 49%;
-    height: 50px;
+    height: 100%;
 }
 
 .download .download_content .download_content_install .download_content_install_app .install_flow .google_play{
@@ -235,7 +235,7 @@ html{
     border-radius: 5px;
     border: 0px none;
     width: 49%;
-    height: 50px;
+    height: 100%;
 }
 
 .download .download_content .download_content_install .download_content_install_follow{
