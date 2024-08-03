@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.slider {
+    width: 80%;
+    spa;
+    
+  }
+.slider div {
+    height: 500px;
+}
+.slick-slide {
+    text-align: center;
+    padding: 40px 0;
+    color: #fff;
+    background: #3498db;
+}
+
+.slick-arrow::before {
+    color: black;
+}
+
+a{
+    text-decoration: ;
+}

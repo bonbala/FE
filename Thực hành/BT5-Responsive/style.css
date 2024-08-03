@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Oswald', sans-serif ;
+}
+
+header{
+    height: 116px;
+    width: 100%;
+    border-bottom: 2px solid gray;  
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    position: fixed; 
+    z-index: 2;
+    padding: 0 45px;
+    
+}
+
+header .header_nav {
+    display: flex;
+    justify-content: space-between;
+    gap:50px;
+    list-style: none;
+
+}

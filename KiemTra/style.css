@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #8d8df3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.main_container{
+    width: 45%;
+    height: 30%;
+    background-color: #ffffff;
+    border-radius: 12px; 
+    display: flex;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.main_container .course{
+    background-color: #292961;
+    height: 100%;
+    width: 35%;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+    color: #ffffff;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main_container .course .course_title p {
+    margin-bottom:12px ;
+} 
+.main_container .chapter {
+    padding: 20px;
+    width: 65%;
+    position: relative;
+}
+.main_container .chapter .chapter_level {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main_container .chapter .chapter_level .chapter_level_meter{
+    height: 5px;
+    width: 45%;
+    background-color: #dcdcdc;
+    border-radius: 5px;
+    
+    position: relative;
+}
+.main_container .chapter .chapter_level .chapter_level_meter::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 5px;
+    width: 60%;
+    background-color: #292961;
+    border-radius: 5px;
+}
+.main_container .chapter .chapter_level .chapter_level_meter::before{
+    content: "6/9 Challenges";
+    position: absolute;
+    top: 12px;
+    right: 0;
+    font-size: 12px;
+}
+
+.main_container .chapter .chapter_title{
+    margin-top: 20px;
+    font-size: 26px;
+}
+.main_container .chapter .btn_continue {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    width: 23%;
+    height: 20%;
+}
+.main_container .chapter .btn_continue button {
+    border: none;
+    background-color: #292961;
+    border-radius: 25px;
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;
+}
+
+/* .main_container .chapter .btn_continue button::after{
+    content: "";
+    position: absolute;
+    transition: all 0.5s ;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    background-color: black;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.main_container .chapter .btn_continue button:hover::after{
+    transition: all 0.5s ;
+    width: 100%; 
+} */
+
+
+
+
+.hastag{
+    padding: 10px;
+    background-color: #292961;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    color: #ffffff;
+}
+.hastag p {
+    color: #89543d;
+    margin-left: 5px ;
+}
+
+
+
+@media screen and (min-width:1024px){
+    .get_in_touch{
+        border: none;
+        position: absolute;
+        bottom: 25px;
+        right: 25px;
+        background-color: #292961;
+        border-radius: 25px;
+        color: #ffffff;
+        width: 125px;
+        height: 45px;
+        box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 8px;   
+    }
+}
+@media screen and (min-width:391px)and (max-width:1024px) {
+    .main_container{
+        width: 60%;
+        height: 20%;
+    }
+}
+
+    .get_in_touch{
+    border: none;
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    background-color: #292961;
+    border-radius: 25px;
+    color: #ffffff;
+    width: 125px;
+    height: 45px;   
+    }
+
+@media screen and (max-width:391px) {
+    .main_container{
+        width: 80%;
+        flex-direction: column;
+    }
+    .main_container .course{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height:50%;
+    }
+   .main_container .chapter{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 50%;
+   }
+   .main_container .chapter .chapter_title{
+    margin-top: 10px;
+   }
+   .main_container .chapter .btn_continue {
+        /* left: 20px;
+        bottom: 20px; */
+        margin-top: 2px;
+   }
+   .get_in_touch{
+    border: none;
+        position: absolute;
+        bottom: 50px;
+        background-color: #292961;
+        border-radius: 25px;
+        color: #ffffff;
+        width: 125px;
+        height: 45px; 
+    
+   }
+}

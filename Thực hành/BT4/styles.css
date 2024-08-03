@@ -1,16 +1,10 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     background: transparent;
     font-family:'Oswald', sans-serif ;
 }
-
-/* body{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-} */
 
 header {
     height: 116px;
