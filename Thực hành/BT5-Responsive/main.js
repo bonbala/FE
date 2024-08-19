@@ -7,3 +7,4 @@ $(document).ready(function () {
       adaptiveHeight: true, // Điều chỉnh chiều cao của slider theo nội dung
     });
   });
+console.log()
